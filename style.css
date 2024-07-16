@@ -1,0 +1,58 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lampu {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    margin: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+    font-size: 5vw;
+    color: black;
+}
+
+.description {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    font-size: 2.5vw;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.count {
+    margin: 0;
+    font-size: 2.5vw;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .title {
+        font-size: 7vw;
+    }
+
+    .description {
+        font-size: 4vw;
+    }
+}
